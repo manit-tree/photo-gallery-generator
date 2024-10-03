@@ -30,7 +30,7 @@ Generate Photo Gallery from images put inside ./images folder
 ## NPM Modules
 
 1. Twig (Template Engine)
-2. Sharp (
+2. Sharp (Module for resize image)
 
 ## Source Code
 
