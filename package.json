@@ -1,0 +1,22 @@
+{
+  "name": "photo-gallery-generator",
+  "description":"Generate Photo Gallery",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "show-gallery": "live-server",
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "twig": "^1.17.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

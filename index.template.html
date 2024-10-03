@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <div id="app">        
+        <div id="gallery" class="items">
+            {% for item in items %}
+            <div class="item">
+                <a href="./images/{{ item.image }}" data-pswp-width="{{ item.width }}" data-pswp-height="{{ item.height }}" target="_blank">
+                    <img load="lazy" src="./thumbs/{{ item.thumb }}" />
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="./js/teriyaki/index.min.js"></script>
+    <script src="./js/photoswipe/photoswipe.min.js"></script>
+    <script>
+    $.ready(() => {
+        Photoswipe({
+            gallery: '#gallery',
+            children: '.item > a'
+        })
+    })
+    </script>
+</body>
+</html>
