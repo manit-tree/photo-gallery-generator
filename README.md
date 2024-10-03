@@ -12,3 +12,7 @@ Generate Photo Gallery from images put inside ./images folder
 2. put your images inside .'images
 3. open command line in root of this folder and run "npm run build" - to generate thumbnail and index.html
 4. on command line, type npm run show-gallery
+
+## Source Code
+
+![image](https://github.com/user-attachments/assets/db335869-8104-48ef-9539-e6952c40bf17)
