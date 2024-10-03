@@ -39,3 +39,7 @@ Generate Photo Gallery from images put inside ./images folder
 ## HTML Template
 
 ![image](https://github.com/user-attachments/assets/5f50356e-1cb5-47e0-ba3c-acf320896737)
+
+## Author
+
+Mr.Manit Treeprapankit
