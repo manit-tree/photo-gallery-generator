@@ -5,10 +5,7 @@ import path from 'node:path';
 import Twig from 'twig';
 import sharp from 'sharp';
 
-
 let arr = fs.readdirSync('./images/').filter(filename => {
-    console.log(filename);
-
     let [_filename, _ext] = filename.split('.');
 
     if (['jpg','webp','png','jpeg','jfif'].includes(_ext)) {
