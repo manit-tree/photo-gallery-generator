@@ -17,6 +17,25 @@ Generate Photo Gallery from images put inside ./images folder
 3. open command line in root of this folder and run "npm run build" - to generate thumbnail and index.html
 4. on command line, type npm run show-gallery
 
+## Development Stack
+
+1. Node JS
+2. HTML, CSS, JavaScript
+
+## JavaScript Libraries
+
+1. Teriyaki.js (JavaScript Helper inspired by jQuery)
+2. Photoswipe.js (LightBox library)
+
+## NPM Modules
+
+1. Twig (Template Engine)
+2. Sharp (
+
 ## Source Code
 
-![image](https://github.com/user-attachments/assets/db335869-8104-48ef-9539-e6952c40bf17)
+![image](https://github.com/user-attachments/assets/0f309799-5ec8-429b-bee5-008d4eb5cc7c)
+
+## HTML Template
+
+![image](https://github.com/user-attachments/assets/5f50356e-1cb5-47e0-ba3c-acf320896737)
